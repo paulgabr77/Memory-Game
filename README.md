@@ -53,9 +53,4 @@ Proiectul este organizat conform arhitecturii MVVM, cu următoarea structură:
 ## 👥 Contribuitori
 - Paul-Gabriel Ilie
 
-## 📄 Licență
-Acest proiect este licențiat sub [MIT License](LICENSE).
-
----
-
 Made with ❤️ using WPF
