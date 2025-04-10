@@ -1,56 +1,54 @@
-# 🎮 Memory Game - Proiect de Laborator 2
+# 🎮 Memory Game
 
-## 📝 Descriere
-Acest proiect reprezintă un joc de memorie (Memory Game) realizat folosind WPF (Windows Presentation Foundation) și arhitectura MVVM (Model-View-ViewModel).
+## 📝 Description
+This project is a classic **Memory Game** built using **WPF (Windows Presentation Foundation)** and the **MVVM (Model-View-ViewModel)** architectural pattern.
 
-## 🚀 Caracteristici
-- 🎯 Interfață grafică modernă și intuitivă
-- 🧠 Joc de memorie clasic cu cărți
-- 🔄 Implementare folosind pattern-ul MVVM
-- 🎨 Design responsive și atractiv
+## 🚀 Features
+- 🎯 Modern and intuitive graphical interface  
+- 🧠 Classic memory game with cards  
+- 🔄 Implementation using the MVVM design pattern  
+- 🎨 Responsive and attractive design
 
-## 🛠️ Tehnologii Utilizate
-- C# (.NET)
-- WPF (Windows Presentation Foundation)
-- XAML
+## 🛠️ Technologies Used
+- C# (.NET)  
+- WPF (Windows Presentation Foundation)  
+- XAML  
 - MVVM Pattern
 
-## 📁 Structura Proiectului
-Proiectul este organizat conform arhitecturii MVVM, cu următoarea structură:
+## 📁 Project Structure
+The project follows the **MVVM architecture** and is organized as follows:
 
 - **Models/**
-  - Conține clasele care reprezintă datele și logica de business
-  - Definește structura cărților și a jocului
-  - Gestionează starea internă a jocului
+  - Contains the classes that represent data and business logic
+  - Defines the structure of cards and the game itself
+  - Manages the internal game state
 
 - **Views/**
-  - Conține interfețele utilizator (XAML)
-  - Definește aspectul vizual al aplicației
-  - Include ferestrele principale și controalele personalizate
+  - Contains the user interface (XAML)
+  - Defines the visual layout of the application
+  - Includes main windows and custom controls
 
 - **ViewModels/**
-  - Conține logica de prezentare
-  - Gestionează interacțiunea dintre Models și Views
-  - Implementează comenzi și proprietăți pentru binding
+  - Contains presentation logic
+  - Handles the interaction between Models and Views
+  - Implements commands and properties for data binding
 
 - **Converters/**
-  - Conține convertori pentru transformarea datelor în binding-uri
-  - Ajută la afișarea corectă a informațiilor în interfață
+  - Contains value converters for data transformations in bindings
+  - Helps display data correctly in the UI
 
 - **Images/**
-  - Conține toate resursele grafice ale proiectului
-  - Include imagini pentru cărți și elemente de interfață
+  - Contains all graphical resources of the project
+  - Includes card images and UI elements
 
-## 🚀 Cum să Rulezi Proiectul
-1. Clonează repository-ul
-2. Deschide soluția în Visual Studio
-3. Rulează proiectul (F5 sau Ctrl+F5)
+## 🚀 How to Run the Project
+1. Clone the repository  
+2. Open the solution in Visual Studio  
+3. Run the project (F5 or Ctrl+F5)
 
-## 📚 Documentație
-- [WPF Documentation](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
+## 📚 Documentation
+- [WPF Documentation](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)  
 - [MVVM Pattern](https://docs.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
 
-## 👥 Contribuitori
+## 👥 Contributors
 - Paul-Gabriel Ilie
-
-Made with ❤️ using WPF
